@@ -7,24 +7,15 @@ module.exports = {
     // Main Site Title
     title: `Piotr Szpruta | .NET Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `23 years old C# Developer`,
     // Optional: Twitter account handle
     author: ``,
     // Optional: Github account URL
     github: `https://github.com/piotrszpruta`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/piotrszpruta`,
+    linkedin: `https://www.linkedin.com/in/zcoderx`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
-      {
-        name: 'Production Management Software',
-        description:
-          'Software which helps company to get orders into production, follow their progress and show stats and control efficency',
-        link: '',
-      },
-    ],
+    about: ``,
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
@@ -35,7 +26,7 @@ module.exports = {
       {
         name: 'Fucco Design',
         description: 'Unity, C# Developer | October 2019 - January 2021',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: '',
       }
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -48,6 +39,14 @@ module.exports = {
       {
         name: 'Databases',
         description: 'MySQL, PostreSQL',
+      },
+      {
+        name: 'Software',
+        description: 'Figma, MySql Workbench',
+      },
+      {
+        name: 'Version Control',
+        description: 'Git, Github',
       },
     ],
   },
@@ -103,13 +102,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `zcoderx`,
+        short_name: `zcoderx`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/bg.jpg`,
       },
     },
   ],
