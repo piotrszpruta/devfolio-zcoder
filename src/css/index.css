@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+#___gatsby{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 @layer base {
   .blog-content {
     @apply text-gray-600;
