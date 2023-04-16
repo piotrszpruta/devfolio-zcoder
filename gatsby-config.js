@@ -7,15 +7,13 @@ module.exports = {
     // Main Site Title
     title: `Piotr Szpruta | .NET Developer`,
     // Description that goes under your name in main bio
-    description: `23 years old C# Developer`,
-    // Optional: Twitter account handle
-    author: ``,
+    description: `@zcoderx | 23 years old C# Developer`,
     // Optional: Github account URL
     github: `https://github.com/piotrszpruta`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/zcoderx`,
-    // Content of the About Me section
-    about: ``,
+    // Add cv link
+    cv: `https://zcoderx.com/cv.pdf`,
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
