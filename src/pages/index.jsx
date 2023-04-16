@@ -10,7 +10,6 @@ import SectionSkills from '../components/section-skills';
 import SEO from '../components/seo';
 
 const Index = ({ data }) => {
-  const about = get(data, 'site.siteMetadata.about', false);
   const projects = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
@@ -38,10 +37,10 @@ export const pageQuery = graphql`
         name
         title
         description
-        about
         author
         github
         linkedin
+        cv
         projects {
           name
           description
