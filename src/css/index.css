@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+svg {
+  padding-left: 5px;
+  display: inline-block !important;
+}
+
 @layer base {
   .blog-content {
     @apply text-gray-600;
