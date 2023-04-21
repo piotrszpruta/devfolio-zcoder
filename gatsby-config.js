@@ -13,7 +13,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/zcoderx`,
     // Add cv link
-    cv: `https://zcoderx.com/cv.pdf`,
+    cv: `https://files.zcoderx.com/portfolio/cv.pdf`,
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
@@ -45,6 +45,13 @@ module.exports = {
       {
         name: 'Version Control',
         description: 'Git, Github',
+      },
+    ],
+    references: [
+      {
+        name: 'Lavello References',
+        description: 'References from Director of Lavello s.c.',
+        link: 'https://files.zcoderx.com/portfolio/ref_lavello_pl.pdf',
       },
     ],
   },
