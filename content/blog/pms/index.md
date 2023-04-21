@@ -26,8 +26,6 @@ Implementation of this software allowed company to speed up whole process and sh
 Before implementation, company's customer service was calling(!) workers to get information about statuses of orders. This resulted in many, many unecessary calls, walks to proper workplace and ask for this product. It was nightmare! 
 Now customer service has it's own panel. (More on that below)
 
-
-
 ## Customer service
 Customer service got their own panel also. It allows them to:
 - check status of the order, 
@@ -35,3 +33,11 @@ Customer service got their own panel also. It allows them to:
 - watch packing recordings to verify if everything was packed
 - chat with workers
 - and many more...
+
+
+## Screenshoots
+#### Admin/Moderator panel
+![1](https://files.zcoderx.com/portfolio/images/lavello/1.png)
+
+#### Advanced search
+![2](https://files.zcoderx.com/portfolio/images/lavello/2.png)
